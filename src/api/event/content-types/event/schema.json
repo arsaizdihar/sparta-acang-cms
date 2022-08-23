@@ -11,34 +11,35 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "tsitle": {
       "type": "string",
       "required": true
     },
-    "Slug": {
+    "slug": {
       "type": "uid",
       "required": true
     },
-    "Description": {
+    "description": {
       "type": "text",
       "required": true
     },
-    "Prasayarat": {
+    "prasayarat": {
       "type": "richtext",
       "required": true
     },
-    "Lokasi": {
-      "type": "string"
+    "lokasi": {
+      "type": "string",
+      "required": true
     },
-    "WaktuMulai": {
+    "waktuMulai": {
       "type": "datetime",
       "required": true
     },
-    "WaktuSelesai": {
+    "waktuSelesai": {
       "type": "datetime",
       "required": true
     },
-    "Thumbnail": {
+    "thumbnail": {
       "allowedTypes": [
         "images"
       ],
@@ -46,7 +47,7 @@
       "multiple": false,
       "required": true
     },
-    "Dokumentasi": {
+    "dokumentasi": {
       "allowedTypes": [
         "images"
       ],
