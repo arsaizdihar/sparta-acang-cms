@@ -4,7 +4,8 @@
   "info": {
     "singularName": "event",
     "pluralName": "events",
-    "displayName": "Event"
+    "displayName": "Event",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,7 +18,8 @@
     },
     "slug": {
       "type": "uid",
-      "required": true
+      "required": true,
+      "targetField": "title"
     },
     "description": {
       "type": "text",
@@ -40,21 +42,20 @@
       "required": true
     },
     "thumbnail": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
-    },
-    "dokumentasi": {
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
+      ]
+    },
+    "dokumentasi": {
       "type": "media",
       "multiple": true,
-      "required": false
-
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
