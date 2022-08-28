@@ -12,12 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "group": {
-      "type": "string",
-      "unique": true,
-      "regex": "^[A-W]$",
-      "required": true
-    },
     "appName": {
       "type": "string",
       "required": true
@@ -32,6 +26,13 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "group": {
+      "type": "integer",
+      "max": 23,
+      "min": 1,
+      "required": true,
+      "unique": true
     }
   }
 }
