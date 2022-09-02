@@ -33,6 +33,10 @@
       "min": 1,
       "required": true,
       "unique": true
+    },
+    "webUrl": {
+      "type": "string",
+      "regex": "^https?://"
     }
   }
 }
